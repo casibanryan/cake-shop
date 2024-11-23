@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "macarons",
+    "price": 500,
+    "image": "image-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Mango Cake",
+    "price": 530,
+    "image": "image-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Ube Flan Cake",
+    "price": 530,
+    "image": "image-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Drip Cake",
+    "price": 500,
+    "image": "image-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Blue Vintage Cake",
+    "price": 350,
+    "image": "image-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Pink Vintage Cake",
+    "price": 350,
+    "image": "image-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Pink Moist Chocolate Cake",
+    "price": 500,
+    "image": "image-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Violate Cake",
+    "price": 510,
+    "image": "image-8.png"
+  }
+]
