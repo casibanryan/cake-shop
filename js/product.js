@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         productList += `<div class="product-button-wrap">
                       <div class="product-button"><a class="button button-gray-14 button-zakaria fl-bigmug-line-search74" href="single-product.html"></a></div>
                       <div class="product-button">
-                        <a class="button button-primary-2 button-zakaria fl-bigmug-line-shopping202" href="javascript:void(0)"
-                        onclick='addCart(${props})'
+                        <a class="button button-primary-2 button-zakaria fl-bigmug-line-shopping202" href="#!"
+                        onclick='event.preventDefault(), addCart(${props})'
                         >
                         </a>
                       </div>
