@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async function () {
               <div class="product-figure">
               <img src="images/shop/${product.image}" alt="${product.image}" width="148" height="128"/> </div>
               <h5 class="product-title">
-              <a href="single-product.html">
+              <a href="#!">
                 ${product.name}
               </a>
               </h5>
@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         const props = JSON.stringify(product).replace(/"/g, '&quot;')
         productList += `<div class="product-button-wrap">
-                      <div class="product-button"><a class="button button-gray-14 button-zakaria fl-bigmug-line-search74" href="single-product.html"></a></div>
                       <div class="product-button">
                         <a class="button button-primary-2 button-zakaria fl-bigmug-line-shopping202" href="#!"
                         onclick='event.preventDefault(), addCart(${props})'
