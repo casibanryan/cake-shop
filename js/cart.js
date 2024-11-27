@@ -14,8 +14,10 @@ function addCart(product) {
     ...product,
     qty: 1
   })
-  getCarts()
+  
   localStorage.setItem('carts', JSON.stringify(carts))
+  getCarts()
+ 
 }
 
 function manageCart(id, process) {
