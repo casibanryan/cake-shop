@@ -15,6 +15,13 @@ $(document).ready(function () {
 
   let amount = Number(`${totalPrice}00`)
   $('#proceed').click(function () {
+    const selectedValue = $('input[name="choice"]:checked').val()
+
+    if (selectedValue == 2) {
+      localStorage.removeItem('carts')
+      window.location.href = 'track-order.html'
+    }
+
     const url = 'https://api.paymongo.com/v1/links'
     const options = {
       method: 'POST',
@@ -31,10 +38,13 @@ $(document).ready(function () {
     fetch(url, options)
       .then(res => res.json())
       .then(json => {
+        localStorage.removeItem('carts')
         const data = json.data.attributes
-        console.log(json, data)
         window.open(data.checkout_url, '_blank', 'width=800,height=600')
       })
-      .catch(err => console.error(err))
+      .catch(err => {
+        console.error(err)
+        alert(err)
+      })
   })
 })

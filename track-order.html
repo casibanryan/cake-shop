@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Aida's Cake Shop : Cart</title>
+    <title>Aida's Cake Shop : Home</title>
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="description" content="Tehzeeb - Responsive Cake Shop Template" />
+    <meta name="description" content="cake shop in cebu" />
     <meta name="keywochs" content="cake shop" />
     <meta name="author" content="resty ochea" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -13,11 +13,11 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
     <!--fonts-->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;display=swap"
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;display=swap"
     />
 
     <!--Style-->
@@ -52,7 +52,6 @@
     <!-- page -->
     <div class="page">
       <!-- Page Header-->
-      <!-- Page Header-->
       <header class="section page-header">
         <!-- RD Navbar-->
         <div class="header-top">
@@ -81,7 +80,9 @@
                 <div class="footer-social clearfix">
                   <ul class="footer-social-icons">
                     <li>
-                      <a href="https://web.facebook.com/aidascakesandballoons"><i class="fa fa-facebook-square"></i></a>
+                      <a href="https://web.facebook.com/aidascakesandballoons" target="_blank">
+                        <i class="fa fa-facebook-square" "></i>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -125,14 +126,16 @@
                 </div>
                 <div class="ch-navbar-nav-wrap">
                   <ul class="ch-navbar-nav">
-                    <li class="ch-nav-item"><a class="ch-nav-link" href="/">Home</a></li>
+                    <li class="ch-nav-item "><a class="ch-nav-link" href="/">Home</a></li>
+                    
                     <li class="ch-nav-item">
                       <a class="ch-nav-link" href="about-us.html">About Us</a>
                     </li>
                     <li class="ch-nav-item">
                       <a class="ch-nav-link" href="contact-us.html">Contact Us</a>
                     </li>
-                    <li class="ch-nav-item"><a class="ch-nav-link" href="track-order.html">Track Order</a></li>
+                    <li class="ch-nav-item active"><a class="ch-nav-link" href="track-order.html">Track Order</a></li>
+
                   </ul>
                 </div>
                 <div class="ch-navbar-main-element">
@@ -223,7 +226,7 @@
                         <ul class="list-inline list-social list-inline-xl">
                           <li>
                             <a href="https://web.facebook.com/aidascakesandballoons">
-                              <i class="fa fa-facebook-square"></i>
+                              <i class="fa fa-facebook-square" target="_blank"></i>
                             </a>
                           </li>
                         </ul>
@@ -237,70 +240,9 @@
         </div>
       </header>
 
-      <!--+breadcrumbs-->
-      <section class="breadcrumbs-custom">
-        <div class="parallax-container breadcrumbs_section">
-          <div class="breadcrumbs-custom-body parallax-content context-dark">
-            <div class="container">
-              <h1 class="breadcrumbs-custom-title">Cart Page</h1>
-            </div>
-          </div>
-        </div>
-        <div class="breadcrumbs-custom-footer">
-          <div class="container">
-            <ul class="breadcrumbs-custom-path">
-              <li><a href="/">Home</a></li>
-              <li><a href="#!">Shop</a></li>
-              <li class="active">Cart Page</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- Shopping Cart-->
-      <section class="section section-xl bg-default">
-        <div class="container">
-          <!-- shopping-cart-->
-          <div class="table-custom-responsive">
-            <table class="table-custom table-cart">
-              <thead>
-                <tr>
-                  <th>Product name</th>
-                  <th>Price</th>
-                  <th>Quantity</th>
-                  <th>Total</th>
-                </tr>
-              </thead>
-              <tbody id="cart-tbody"></tbody>
-            </table>
-          </div>
-          <div class="group-xl group-justify justify-content-center justify-content-md-between">
-            <div>
-              <form class="ch-form ch-mailform ch-form-inline ch-form-coupon">
-                <div class="form-wrap">
-                  <input class="form-input form-input-inverse" id="coupon-code" type="text" name="text" />
-                  <label class="form-label" for="coupon-code">Coupon code</label>
-                </div>
-                <div class="form-button">
-                  <button class="button button-lg button-primary button-zakaria apply-coupon" type="button">
-                    Apply
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div>
-              <div class="group-xl group-middle">
-                <div>
-                  <div class="group-md group-middle">
-                    <div class="heading-5 font-weight-medium text-gray-500">Total</div>
-                    <div class="heading-3 font-weight-normal total-price"></div>
-                  </div>
-                </div>
-                <a class="button button-lg button-primary button-zakaria" href="checkout.html">Proceed to checkout</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+      <iframe src="iframe.html" style="height: 300px; width: 100%;" frameborder="0"></iframe>
+
 
       <!-- Page Footer-->
       <footer class="section footer-modern footer-modern-2">
@@ -391,6 +333,6 @@
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/cart.js"></script>
-    <script src="js/discount.js"></script>
+    <script src="js/product.js"></script>
   </body>
 </html>
